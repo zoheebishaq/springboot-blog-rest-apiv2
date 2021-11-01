@@ -81,10 +81,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     //    @Override
 //    @Bean
 //    protected UserDetailsService userDetailsService() {
-//        UserDetails ramesh = User.builder().username("ramesh").password(passwordEncoder()
+//        UserDetails zoheeb = User.builder().username("zoheeb").password(passwordEncoder()
 //                .encode("password")).roles("USER").build();
 //        UserDetails admin = User.builder().username("admin").password(passwordEncoder()
 //                .encode("admin")).roles("ADMIN").build();
-//        return new InMemoryUserDetailsManager(ramesh, admin);
+//        return new InMemoryUserDetailsManager(zoheeb, admin);
 //    }
 }
